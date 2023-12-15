@@ -1,0 +1,69 @@
+.addStuffCont{
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: #2B5250;
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+button{
+    width: 100%;
+    margin-top: 10px;
+    color: #05c1b7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sora;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.2px;
+    background: none;
+    border: none;
+}
+
+button:hover{
+    color: #003835;
+}
+
+.sidebyside{
+    display: flex;
+}
+
+.verybottom{
+    background-color: rgb(49, 49, 49);
+}
+
+.imgaside{
+    width: 20%;
+}
+
+.inputaside{
+    max-width: 80%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sidebyside{
+        flex-direction: column;
+    }
+
+    .imgaside{
+        width: 100% !important;
+    }
+
+    .inputaside{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .addStuffCont{
+        width: 99% !important;
+    }
+}

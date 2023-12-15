@@ -1,0 +1,39 @@
+input, select{
+    margin-top: 25px;
+    border-radius: 5px;
+    background: #ffffff;
+    width: 358px;
+    height: 38px;
+}
+
+.alignment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.desclabel{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.wysiwyg{
+    margin-top: 20px;
+    background-color: white;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+@media only screen and (max-width: 1000px) {
+    input, select{
+        width: 80% !important;
+        margin-left: 0 !important;
+    }
+
+    .alignment{
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+}

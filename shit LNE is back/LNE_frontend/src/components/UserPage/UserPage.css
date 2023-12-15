@@ -1,0 +1,104 @@
+.userStuff{
+    margin: auto;
+    margin-top: 80px;
+    width: 80vw;
+    height: 70vh;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.imgAside{
+    height: 100%;
+    width: 300px;
+    background: #202424;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imgAside p{
+    color: #FFF;
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em; /* a */
+    max-height: 2em; /* a x number of line to show (ex : 2 line)  */
+}
+
+.imgAside img{
+    width: 100%;
+}
+
+.textContent p{
+    color: #000;
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    height: 100%;
+}
+
+.listingStuff{
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-top: 50px;
+    width: 99%;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    color: #C7C7C7;
+    font-family: Sora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.alignThem{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 10px;
+    overflow: scroll;
+}
+
+.alignEnd{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.alignEnd label{
+    height: 100%;
+    margin-right: 10px;
+}
+
+.alignEnd input{
+    margin-top: 0px;
+}
+
+.editbutton{
+    margin-left: 10px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .userStuff{
+        flex-direction: column;
+        height: fit-content !important;
+    }
+
+    .imgAside{
+        width: 100% !important;
+    }
+}

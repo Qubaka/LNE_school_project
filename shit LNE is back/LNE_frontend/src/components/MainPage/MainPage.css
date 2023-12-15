@@ -1,0 +1,10 @@
+#MainPage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.offers{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

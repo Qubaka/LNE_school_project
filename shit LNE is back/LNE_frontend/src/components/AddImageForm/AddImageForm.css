@@ -1,0 +1,40 @@
+input[type="file"] {
+    display: none;
+}
+
+.fileSelect{
+    margin-top: 10px;
+    color: #7e003d;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sora;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.2px;
+    background: none;
+    border: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.fileSelect:hover{
+    color: #280114;
+}
+
+.addimglol{
+    background-color: rgb(83, 83, 83);
+    height: 100%;
+    overflow: hidden;
+}
+
+.editImg{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .fileSelect{
+        margin-bottom: 10px;
+    }
+}

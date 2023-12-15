@@ -1,0 +1,121 @@
+#Navbar{
+  background-color: #4B4B4B;
+  position: fixed;
+  box-sizing: border-box;
+  top: 20px;
+  left: 5%;
+  right: 5%;
+  height: 65px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  border-radius: 5px;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.mobileBurger{
+  display: none;
+}
+
+h1 {
+  color: #C7C7C7;
+  font-family: Sora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+#Navbar a {
+  float: right;
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  font-family: Sora;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.links {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#Navbar .links a:visited
+{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.links a{
+  margin-right: 25px;
+}
+
+.navLink:hover{
+  color: #a3a3a3;
+}
+
+.navlink {
+  margin: 0px 10px 0px 10px;
+}
+
+.burgerStuff{
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-stretch: 1000%;
+  font-size: 45px;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .links{
+    display: none;
+  }
+
+  .mobileBurger{
+    display: inline-block;
+  }
+
+  #Navbar{
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+  }
+}
+
+.burburg{
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  top: 65px;
+  left: 0px;
+  background-color: #383838;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+}
+.burburg div{
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1000px) {
+  a{
+    float: unset !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

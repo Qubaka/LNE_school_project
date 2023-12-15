@@ -1,0 +1,8 @@
+#Footer{
+  background: #202424;
+  position: absolute;
+  box-sizing: border-box;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+}
